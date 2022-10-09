@@ -188,3 +188,28 @@ body{
 .back a{
   color: white;
 }
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+
+}
+.row{
+  background-color: #777;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+.ender{
+  text-align: center;
+  background-color: #333331;
+  text-transform: capitalize;
+  color: white;
+
+}
